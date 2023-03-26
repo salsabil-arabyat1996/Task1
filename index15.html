@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        #label1{
+            width: 70px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Registration Form</h1>
+    </div>
+    <form>
+        
+        <form action="/action_page.php">
+            <label id="label1" for="uesrid">User id: </label>
+            <input type="number" id="userid" name="userid" size="20"><br><br>
+            <label id="label1" for="pws">password:</label>
+            <input type="password" id="pws" name="pws" size="20"><br><br>
+
+            <label id="label1" for="name">Name:</label>
+            <input type="text" id="iname" name="Name"  maxlength="10" minlength="13"> <br><br>
+            <label id="label1" for="addres">Address:</label>
+            <input type="text" id="iddress" name="Address" size="50"> <br><br>
+
+            <label for="country">Country:</label>
+
+<select id="country">
+  <option value="please seleact a country">please seleact a country</option>
+  <option value="Jordan">jordan</option>
+  <option value="iraq">iraq</option>
+  <option value="syria">syria</option>
+
+</select><br><br>
+
+<label for="Zipcode">Zipcode</label>
+<input type="number" id="izipcode" name="Zip code" size="50"> <br><br>
+<label for="Email">Email:</label>
+<input type="text" id="email" name="Email" size="50"> <br>
+
+<br>
+    
+    <div>
+        <label> 
+       sex :
+        </label>
+        <input type="radio" value="Male" name="gender" checked > Male 
+        <input type="radio" value="Female" name="gender"> Female 
+
+
+        </div>
+        <br>
+            </form>
+        
+        </div>
+
+    
+    
+    <div>
+        <label> 
+        Language :
+        </label>
+        <input type="radio" value="English" name="English" checked > English
+        <input type="radio" value="Nonenglish" name="Non English"> Non English
+
+
+        </div>
+        <br>
+        
+        <label for="about">About:</label><br><br>
+<input type="text" id="about" name="about" style="width:400px;height: 150px;padding-bottom: 50px;" ><br><br>
+<input type="submit" value="Submit">
+    </form>
+</body>
+</html>
